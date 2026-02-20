@@ -61,7 +61,7 @@ incorrect = df[((df['group'] == 'control') & (df['landing_page'] != 'old_page'))
 users_in_both = df.groupby('user_id')['group'].nunique()
 # Пользователи, попавшие в обе группы, удалены
 ```
-<img width="1189" height="490" alt="download" src="https://github.com/user-attachments/assets/e8861272-3baa-451c-bdf0-cb37285f36b1" />
+
 Результат очистки:
 
 -Удалены пропуски (3 записи)
@@ -146,7 +146,7 @@ text
 
 Ни в одной стране нет значимых различий
 
-Автор
+# Автор
 Виктория
 
 Студент 3 курса прикладной математики
